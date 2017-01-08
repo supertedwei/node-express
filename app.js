@@ -5,6 +5,6 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!')
-})
+app.listen(8100,'0.0.0.0',function(){
+    console.log('HTTP server running on http://0.0.0.0:8100/ ');
+});
